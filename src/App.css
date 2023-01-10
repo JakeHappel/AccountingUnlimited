@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  border: 1px solid black;
+  margin:0;
+	padding:0;
+	border:0;
+}
+.background{
+  background-color: #eee;
+}
+.infoboxs{
+  display: flex;
+  justify-content: space-around;
+}
+.info{
+  max-width: 20%;
+}
+nav{
+  display: flex;
+  justify-content: end;
+  margin:3%;
+  width: 70%;
+  height: auto;
+  margin-right: 0%;
+  /* border: 1px solid black; */
+}
+main{
+  margin-left: 200px;
+  margin-right: 200px;
+	border-left: 1px solid #000;
+  border-right:1px solid black;
+	padding: 10px;
+	line-height: 2em;
+}
+h1{
+  color: rgb(0, 0, 189);
+  font-size: 1.7rem;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+  margin-left: 200px;
+  margin-right: 200px;
+  /* border:1px solid black; */
+}
+.navbar{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 189);
+  font-weight: bold;
+  margin: 1%;
+  /* border: 1px solid black; */
+}
+.stockimg{
+  width: 100%;
+  height: 375px;
+  background-size: cover;
+}
