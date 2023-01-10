@@ -7,7 +7,7 @@ const Header = () => {
     return(
     <header>
         <div className="header">
-        <img src={AULogo} alt="accounting unlimited"/>
+        <img className="logo" src={AULogo} alt="accounting unlimited"/>
         <nav>
             <Link className="navbar" to="/">Home</Link>
             <Link className="navbar" to="/">About Us</Link>
@@ -22,7 +22,6 @@ const Header = () => {
         </div>
         <img className="stockimg" src={Stockimg} alt="accounting unlimited"/>
         <div>
-            
         </div>
     </header>
     
